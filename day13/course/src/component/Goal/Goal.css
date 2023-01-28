@@ -1,0 +1,14 @@
+.head{
+    display: flex;
+    justify-content: center;
+  }
+  .listItem{
+    list-style: none;
+  
+  }
+  .listItem li{
+    border: 1px solid teal;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
