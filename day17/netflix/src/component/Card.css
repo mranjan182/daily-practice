@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    width: 20rem;
+    height: 26rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    border-radius: 1rem;
+}
+.card img{
+    width: 100%;
+    height: 20rem;
+    box-sizing: border-box;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.content{
+    padding-left: 1rem;
+}
+.content span{
+    color: darkcyan;
+}
+.content button{
+    margin-top: 0.5rem;
+    padding: 3px 10px ;
+    border:2px solid gray;
+    cursor: pointer;
+}

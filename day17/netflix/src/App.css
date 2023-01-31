@@ -1,0 +1,14 @@
+.heading{
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  color: coral;
+}
+.addcard{
+  display: grid;
+  grid-template-columns: repeat(3,400px);
+  grid-template-rows: repeat(2,450px);
+  gap: 20px 20px;
+  margin: 50px 90px 0px 90px;
+  background-color:rgb(255, 214, 214);
+}
