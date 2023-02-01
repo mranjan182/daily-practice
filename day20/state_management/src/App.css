@@ -1,0 +1,16 @@
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.button button{
+  border: 2px solid rgb(223, 190, 190);
+  padding: 10px 15px;
+  background-color: pink;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: 500;
+}
