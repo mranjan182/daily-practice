@@ -1,0 +1,21 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 40px;
+}
+.featuredimg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.featureditem{
+    position: relative;
+}
+.title{
+    position: absolute;
+top: 120px;
+left: 10px;
+color: white;
+font-size: 15px;
+}
