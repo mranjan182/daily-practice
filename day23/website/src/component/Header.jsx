@@ -12,7 +12,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useState } from "react";
 import "./Header.css";
-const Header = () => {
+const Header = ({type}) => {
   const [option, setOption] = useState({
     adult: 1,
     children: 0,
@@ -28,7 +28,7 @@ setOption((prev)=>{
   }
   const [showoption,setShowoption]=useState(false)
   return (
-    <div className="Header">
+    <div className={type=='list'?"Headerlist":"Header"}>
       <div className="headerContainer">
         <div className="headerList">
           <div className="headerListItem">
@@ -56,7 +56,10 @@ setOption((prev)=>{
             <span>Airport taxis</span>
           </div>
         </div>
-        <h1 className="headertitle">Find your next stay</h1>
+      { type!=='list' &&
+        <>
+          <h1 className="headertitle">Find your next stay</h1>
+        
         <p className="headerdesc">
           Search low prices on hotels, homes and much more...
         </p>
@@ -67,7 +70,7 @@ setOption((prev)=>{
               type="text"
               className="headerSearchInput"
               placeholder="Where are you going?"
-            />
+              />
           </div>
           <div className="headerSearchItem">
             <FontAwesomeIcon className="headericon" icon={faCalendarDays} />
@@ -111,9 +114,11 @@ setOption((prev)=>{
             <button className="headerbtn">Search</button>
           </div>
         </div>
+    </>
+    }
       </div>
     </div>
-  );
+    );
 };
 
 export default Header;

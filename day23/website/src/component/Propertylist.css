@@ -1,0 +1,25 @@
+
+.propertycontainer{
+    
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    height: auto;
+    margin-top: 20px;
+}
+.image>img{
+
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 200px;
+}
+.propertytitle>h1{
+    font-size: 20px;
+}
+.propertytitle>span{
+    font-size: 14px;
+    color: gray;
+}

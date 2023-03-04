@@ -5,3 +5,8 @@
     align-items: center;
     z-index: 1;
 }
+.hometitle{
+    width: 1024px;
+    font-size: 25px;
+    margin-top: 10px;
+}

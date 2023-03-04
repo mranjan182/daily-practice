@@ -1,0 +1,19 @@
+.footercontainer{
+    width: 100%;
+    max-width: 1024px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer>ul{
+    list-style: none;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.copyright{
+    margin-left: 320px;
+}

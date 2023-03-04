@@ -1,0 +1,39 @@
+.guestcontainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 1024px;
+    margin-top: 20px;
+}
+.guestitem{
+    height: 380px;
+    
+    width: 400px;
+}
+.guesttitle>h1{
+
+   font-size: 20px; 
+   margin-bottom: 5px;
+}
+.guestimage{
+object-fit: cover;
+width:100% ;
+border-radius: 5px;
+cursor: pointer;
+height: 230px;
+}
+.guesttitle>span{
+    font-size: 14px;
+    color: gray;
+    
+}
+.rating{
+    margin-top: 5px;
+}
+.rating>button{
+    padding: 5px;
+    margin-right: 5px;
+    background-color: #003580;
+    color: white;
+    border: none;
+}
