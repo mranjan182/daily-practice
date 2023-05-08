@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+}
+.menu-bar{
+    background-color:whitesmoke;
+    /* height: 100vh; */
+}
+.food-container{
+    /* height: 100vh; */
+    background-color: #f7f5f7;
+    
+   
+    
+    
+}
+
+
+
+.side-bar{
+    /* height: 100vh; */
+    
+    background-color:whitesmoke ;
+}
+.logo img{
+    width: 90px;
+    height: 90px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.menu-item a{
+    text-decoration: none;
+    display: block;
+    margin: 10px ;
+    padding: 10px;
+    color:teal;
+    font-size: larger;
+}
+.menu-item a:hover{
+    background-color:rgba(81, 207, 129, 0.507);
+}
+.logo {
+    display: grid;
+    justify-content: center;
+}
+
+
+.header{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:whitesmoke;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+    z-index: 1;
+}
+
+.added-item{
+    display: flex;
+}
+.location i{
+    border: 1px solid #cdabab ;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px ;
+}
+.location i{
+    color: #cdabab;
+    cursor: pointer;
+}
+.location i:hover{
+    color: white;
+    background-color:#cdabab ;
+}
+.search,.offer,.cart-item{
+    margin-left: 20px;
+    border: 1px solid #be8f90;
+    border-radius: 30px;
+    color:#be8f90;
+    padding:4px 8px;
+    cursor: pointer;
+}
+.added-item :active{
+background-color:#be8f90;
+color: white;
+}
+
+   
+
+
+.card{
+
+    background-color: indianred;
+    width: 160px;
+}
+.card img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 10px;
+    transition: transform .2s;
+}
+.card img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.card p{
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:200px ;
+    margin-left: 15px;
+    margin-top: 15px;
+    gap: 45px;
+}
+.food-item{
+    overflow: scroll;
+    /* box-sizing: content-box; */
+    
+    height: 100vh;
+}
+ ::-webkit-scrollbar{
+display: none;
+} 
+.food-item h3{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.account i{
+    border-radius: 50%;
+}
+.account{
+    width: 80px;
+    margin-left: 20px;
+    border: 1px solid #be8f90;
+    border-radius: 30px;
+    color:#be8f90;
+    padding:4px 8px;
+    cursor: pointer;
+}
+.cart-header{
+    /* border: 1px solid red; */
+    display: flex;
+    
+    align-items: center;
+    background-color:whitesmoke;
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+    z-index: 1;
+}
+.title h3{
+color: indianred;
+font-size: 25px;
+font-weight: 900;
+text-align: center;
+margin-top: 15px;
+}
+.border{
+    width: 60px;
+    height: 4px;
+    border: 1px solid #e78660 ;
+    border-radius: 60px;
+    background: #e78660 ;
+    margin-left: 58px;
+    margin-top: 4px;
+}
+.cart{
+    background-color: whitesmoke;
+}
+
+.item-image img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+.item{
+    margin-left: 45px;
+    margin-top: 30px;
+}
+.item-detail{
+    display: flex;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 8%;
+   width: 75%;
+   padding-left: 5px;
+   transition: transform 0.2s;
+}
+.item-image img:hover{
+    transform: scale(1.5);
+}
+.item-detail:hover{
+    cursor: pointer;
+    background-color: pink;
+    transition: 0.1s all ease-in-out;
+    transform: scale(1.5);
+}
+.item-name p{
+
+margin-top: 6px;
+margin-left: 10px;
+color: 
+#bdbbbc ;
+padding: 5px;
+letter-spacing: 1px;
+}
+.top-left{
+    
+    border-radius: 30%;
+    background-color: black;
+    color: pink;
+    padding: 5px;
+}
+.top-right{
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
