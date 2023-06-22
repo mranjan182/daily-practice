@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+      }
+      #container {
+        border: 1px solid teal;
+        width: 40%;
+        /* height: 520px; */
+        margin: auto;
+        margin-top: 50px;
+        background-color: #0ae8f0;
+      }
+      #container > div {
+        border: 1px solid teal;
+        width: 74%;
+        margin: auto;
+        margin-top: 40px;
+        /* height: 420px; */
+        background-color: #e9f0fa;
+      }
+      .form-heading {
+        display: flex;
+        margin-top: 20px;
+        color: grey;
+      }
+      .form-heading > div {
+        border: 1px solid gray;
+        height: 0px;
+        width: 40%;
+        margin-top: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      .title {
+        font-size: 30px;
+      }
+      .info {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 15px;
+        font-weight: 300;
+        margin-top: 10px;
+        color: gray;
+      }
+      #two-input{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+      }
+      #two-input>div>input{
+        height: 35px;
+        
+        
+      }
+      .input{
+        width: 90%;
+        margin: auto;
+      }
+      .input>div{
+        width: 100%;
+        
+        height:35px ;
+        margin-top: 20px;
+      }
+      .input>div>input{
+        width: 100%;
+        height: 100%;
+       
+      }
+      .checkbox{
+        margin-left: 5%;
+        margin-top: 15px;
+        font-size: 14px;
+        color: gray;
+      }
+      .button{
+        /* border: 1px solid red; */
+        width: 90%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 40px;
+      }
+      .button>input:hover{
+        cursor: pointer;
+      }
+      .button>input{
+        width: 100%;
+        font-size:15px ;
+        padding:7px 0px ;
+        background-color: rgba(255, 0, 0, 0.788);
+        color: white;
+        border: none;
+        border-radius: 3px;
+      }
+      a{
+        color: white;
+      }
+      span{
+        color: rgba(255, 0, 0, 0.788);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <div class="form-heading">
+          <div></div>
+          <p class="title">Register</p>
+          <div></div>
+        </div>
+        <p class="info">
+          Create your account. It's free and only takes a minute.
+        </p>
+        <div id="two-input">
+            <div><input type="text" placeholder="First Name"></div>
+            <div><input type="text" placeholder="Last Name"></div>
+        </div>
+        <div class="input">
+            <div><input type="text" placeholder="Email"></div>
+            <div><input type="text" placeholder="Password"></div>
+            <div><input type="text" placeholder="Confirm Password"></div>
+        </div>
+        <div class="checkbox">
+            <input  type="checkbox"> I accept the <span>Terms of Use</span>  & <span>Privacy Policy.</span>
+        </div>
+        <div class="button">
+            <input type="submit" value="Register Now">
+        </div>
+        
+      </div>
+      <p style="text-align: center; margin-top: 10px; margin-bottom: 25px; font-size: 14px; font-weight: 300; color: white;">Already have an account? <a href="">Sign in</a></p>
+    </div>
+  </body>
+</html>
