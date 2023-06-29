@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enquire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: "Roboto", sans-serif;
+      }
+      span {
+        color: orange;
+      }
+      .input {
+        width: 90%;
+        display: block;
+        margin: auto;
+        height: 45px;
+        margin-top: 10px;
+        /* padding: 10px; */
+      }
+      select {
+        width: 91%;
+        display: block;
+        margin: auto;
+        height: 45px;
+        margin-top: 10px;
+      }
+      .talk {
+        margin-left: 5%;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        margin-top: 30px;
+      }
+      .expert {
+        margin-left: 5%;
+        font-size: 34px;
+        font-weight: 400;
+        color: white;
+      }
+      .enquire {
+        margin-left: 5%;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      table {
+        background-color: #00224f;
+        
+      }
+      label{
+        color: white;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+      .checkbox{
+        margin-left: 5%;
+        margin-right: 5%;
+        
+        
+      }
+      button{
+        display: block;
+        margin: auto;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: white;
+        background-color: #f0b31d ;
+        margin-top:5px;
+        margin-bottom: 15px;
+        border: none;
+      }
+      button:hover{
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="0" align="center" width="30%" style="margin: auto; margin-top: 30px;" >
+      <tr>
+        <td>
+          <div class="talk">TALK TO OUR</div>
+          <div class="expert">EXPERTS</div>
+          <div class="enquire">
+            ENQUIRE NOW OR <span>CALL -70-70-90-50-90</span>
+          </div>
+        </td>
+      </tr>
+
+      <tr>
+        <td><input class="input" type="text" placeholder="Your Name" /></td>
+      </tr>
+      <tr>
+        <td>
+          <input class="input" type="number" placeholder="Contact Number" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="input" type="email" placeholder="Email" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select name="" id="">
+            <option value="">Course Looking for!</option>
+            <option value="">Full Stack Developer</option>
+            <option value="">Python</option>
+            <option value="">SQL</option>
+            <option value="">Data Analytics</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <select>
+            <option value="">Select Branch</option>
+            <option value="">Mechanical</option>
+            <option value="">Civil</option>
+            <option value="">Electrical</option>
+            <option value="">Computer Science</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+            <div style="margin-top: 5px; margin-bottom: 5px;">
+                <input class="checkbox" type="checkbox" />
+                <label for=""
+                  >I understand that your personal data will be used in
+                </label>
+                <br />
+                <label style="margin-left: 14%;" for="">
+                  accordance with the <span>Privacy Policy</span> here <sup>*</sup>
+                </label>
+            </div>
+         
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button>SUBMIT</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
